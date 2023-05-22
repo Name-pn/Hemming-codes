@@ -85,6 +85,18 @@ build CMakeFiles/netKursov.dir/libs/menu/menu.c.obj: C_COMPILER__netKursov_Debug
   OBJECT_DIR = CMakeFiles\netKursov.dir
   OBJECT_FILE_DIR = CMakeFiles\netKursov.dir\libs\menu
 
+build CMakeFiles/netKursov.dir/libs/HemmingL/hemmingL.c.obj: C_COMPILER__netKursov_Debug D$:/CLionProjects/netKursov/libs/HemmingL/hemmingL.c || cmake_object_order_depends_target_netKursov
+  DEP_FILE = CMakeFiles\netKursov.dir\libs\HemmingL\hemmingL.c.obj.d
+  FLAGS = -g -std=gnu2x
+  OBJECT_DIR = CMakeFiles\netKursov.dir
+  OBJECT_FILE_DIR = CMakeFiles\netKursov.dir\libs\HemmingL
+
+build CMakeFiles/netKursov.dir/libs/test/testHemmingL.c.obj: C_COMPILER__netKursov_Debug D$:/CLionProjects/netKursov/libs/test/testHemmingL.c || cmake_object_order_depends_target_netKursov
+  DEP_FILE = CMakeFiles\netKursov.dir\libs\test\testHemmingL.c.obj.d
+  FLAGS = -g -std=gnu2x
+  OBJECT_DIR = CMakeFiles\netKursov.dir
+  OBJECT_FILE_DIR = CMakeFiles\netKursov.dir\libs\test
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target netKursov
@@ -93,7 +105,7 @@ build CMakeFiles/netKursov.dir/libs/menu/menu.c.obj: C_COMPILER__netKursov_Debug
 #############################################
 # Link the executable netKursov.exe
 
-build netKursov.exe: C_EXECUTABLE_LINKER__netKursov_Debug CMakeFiles/netKursov.dir/main.c.obj CMakeFiles/netKursov.dir/libs/message/message.c.obj CMakeFiles/netKursov.dir/libs/test/testMessage.c.obj CMakeFiles/netKursov.dir/libs/Hemming/hemming.c.obj CMakeFiles/netKursov.dir/libs/test/testHemming.c.obj CMakeFiles/netKursov.dir/libs/menu/menu.c.obj
+build netKursov.exe: C_EXECUTABLE_LINKER__netKursov_Debug CMakeFiles/netKursov.dir/main.c.obj CMakeFiles/netKursov.dir/libs/message/message.c.obj CMakeFiles/netKursov.dir/libs/test/testMessage.c.obj CMakeFiles/netKursov.dir/libs/Hemming/hemming.c.obj CMakeFiles/netKursov.dir/libs/test/testHemming.c.obj CMakeFiles/netKursov.dir/libs/menu/menu.c.obj CMakeFiles/netKursov.dir/libs/HemmingL/hemmingL.c.obj CMakeFiles/netKursov.dir/libs/test/testHemmingL.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\netKursov.dir
